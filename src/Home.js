@@ -29,7 +29,7 @@ function Home(props) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [available,setAvailable]=React.useState(false);
   React.useEffect(()=>{
-    axios.get('http://localhost:8080/resultStatus').then(res=>{
+    axios.get('https://sheltered-springs-54896.herokuapp.com/resultStatus').then(res=>{
       setAvailable(res.data.result_status.updated);
     }).catch(err=>console.log('err'));
   },[])
