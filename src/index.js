@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 
 const client=new ApolloClient({
-  uri:'http://localhost:8080/graphql',
+  uri:'https://sheltered-springs-54896.herokuapp.com/graphql',
   cache:new InMemoryCache(),
 })
 
