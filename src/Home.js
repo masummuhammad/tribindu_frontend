@@ -82,10 +82,17 @@ function Home(props) {
           </ListItem>
           </a>
           <Divider/>
+           <ListItem component='div' key={'footer'} style={{marginBottom:'0px'}}>
+            <Typography variant='caption'>tribindu (c) Copyright 2022 <a style={{textDecoration:'none',}} href='https://masum.vercel.app'>Masum</a></Typography>
+            
+          </ListItem>
           <ListItem component='div' key={'footer'} style={{marginBottom:'0px'}}>
-            <Typography variant='caption'>tribindu&copy;<a style={{textDecoration:'none',}} to='https://masum.vercel.app/'>Muhammad Masum</a></Typography>
-            <Typography variant='caption'>All rights reserved.2022</Typography>
-           
+            <Typography variant='caption'>All rights reserved.</Typography>
+            
+          </ListItem>
+          <ListItem component='div' key={'footer'} style={{marginBottom:'0px'}}>
+            <Typography variant='caption'>Developed by <a style={{textDecoration:'none',}} href='https://masum.vercel.app'>Masum</a></Typography>
+            
           </ListItem>
       </List>
       
