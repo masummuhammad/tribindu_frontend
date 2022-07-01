@@ -83,7 +83,8 @@ function Home(props) {
           </a>
           <Divider/>
           <ListItem component='div' key={'footer'} style={{marginBottom:'0px'}}>
-            <Typography variant='caption'>Developed by  <Link style={{textDecoration:'none',}} to='#'>Masum</Link></Typography>
+            <Typography variant='caption'>tribindu&copy;<a style={{textDecoration:'none',}} to='https://masum.vercel.app/'>Muhammad Masum</a></Typography>
+            <Typography variant='caption'>All rights reserved.2022</Typography>
            
           </ListItem>
       </List>
